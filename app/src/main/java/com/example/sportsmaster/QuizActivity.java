@@ -40,12 +40,12 @@ public class QuizActivity extends AppCompatActivity {
         answer1.setText(questions.get(0).getAnswers().get(0));
 
         Button answer2 = findViewById(R.id.answer2Id);
-        answer1.setText(questions.get(0).getAnswers().get(1));
+        answer2.setText(questions.get(0).getAnswers().get(1));
 
         Button answer3 = findViewById(R.id.answer3Id);
-        answer1.setText(questions.get(0).getAnswers().get(2));
+        answer3.setText(questions.get(0).getAnswers().get(2));
 
         Button answer4 = findViewById(R.id.answer4Id);
-        answer1.setText(questions.get(0).getAnswers().get(3));
+        answer4.setText(questions.get(0).getAnswers().get(3));
     }
 }
