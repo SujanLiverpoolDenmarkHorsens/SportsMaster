@@ -1,5 +1,6 @@
 package database;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
@@ -13,11 +14,14 @@ public interface QuestionDao {
         List<Question> getAll();
 
         @Query("SELECT * FROM Question WHERE id = :id")
-        List<Question> getQuestionById(int id);
+        LiveData<List<Question>> getQuestionById(int id);
 
         @Query("SELECT * FROM Question ORDER BY RANDOM() LIMIT :amount")
-        List<Question> getRandomQuestions(int amount);
+        LiveData<List<Question>> getRandomQuestions(int amount);
 
         @Insert
         void insertAll(Question... questions);
+
+        @Query("SELECT COUNT(*) FROM Question")
+        int getQuestionCount();
 }
