@@ -15,6 +15,17 @@ public class Question {
         this.correctAnswer = correctAnswer;
     }
 
+    public Question (database.Question ques){
+        this.question = ques.question;
+        this.answers = new ArrayList<String>();
+        this.answers.add(ques.answer1);
+        this.answers.add(ques.answer2);
+        this.answers.add(ques.answer3);
+        this.answers.add(ques.answer4);
+
+        this.correctAnswer = ques.correct;
+    }
+
     public String getQuestion() {
         return question;
     }

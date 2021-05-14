@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity
         protected Void doInBackground(Void... voids) {
             URL url = null;
             try {
-                url = new URL("https://opentdb.com/api.php?amount=20&difficulty=easy&type=multiple");
+                url = new URL("https://opentdb.com/api.php?amount=20&difficulty=easy&type=multiple&category=21");
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }

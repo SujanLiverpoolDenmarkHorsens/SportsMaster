@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774663467547",
+    "project_id": "sportsmasterapp-62b9e",
+    "storage_bucket": "sportsmasterapp-62b9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774663467547:android:67f7afa542170276e0febe",
+        "android_client_info": {
+          "package_name": "com.example.sportsmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774663467547-0uhgc1asqakkkbasbhbuga7q15arl2rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMdphj4kW5RzvOfovA2NDIDzK6agZbnVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774663467547-0uhgc1asqakkkbasbhbuga7q15arl2rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

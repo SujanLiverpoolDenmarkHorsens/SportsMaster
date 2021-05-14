@@ -1,12 +1,10 @@
 package com.example.sportsmaster;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.LiveData;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.Toast;
 
 import com.example.sportsmaster.vm.QuestionRepository;
 import com.example.sportsmaster.vm.QuestionViewModel;

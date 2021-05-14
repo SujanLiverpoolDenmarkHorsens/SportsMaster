@@ -34,6 +34,10 @@ public class QuestionRepository {
         return questionDao.getAll();
     }
 
+    public List<Question> getAllQuestionsLiveData() {
+        return questionDao.getAll();
+    }
+
     public LiveData<List<Question>> getRandomQuestions(int amount) {
         return questionDao.getRandomQuestions(amount);
     }

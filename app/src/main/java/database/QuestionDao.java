@@ -16,7 +16,7 @@ public interface QuestionDao {
         @Query("SELECT * FROM Question WHERE id = :id")
         LiveData<List<Question>> getQuestionById(int id);
 
-        @Query("SELECT * FROM Question ORDER BY RANDOM() LIMIT :amount")
+        @Query("SELECT * FROM Question LIMIT :amount")
         LiveData<List<Question>> getRandomQuestions(int amount);
 
         @Insert

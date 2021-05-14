@@ -21,3 +21,18 @@ will not have:
 1. As a user i want to be able to compete with other online users within some time frame. 
 2. As a user i want to be able to buy in-game coins to buy various assets in the game. 
 
+
+Completed Requirements: 
+
+1. Layouts - Completed
+2. Activities & resources - Completed
+3. Intents and fragments - Completed
+4. User experience - Completed
+5. Recycler views - Completed
+6. Application Structure - Completed
+7. Local Data Storage - Completed
+8. Networking - Completed
+9. Google Services - Completed
+10. Testing - Manual testing completed & Android Test Remains. 
+
+Youtube link to the Demo of the application - https://youtu.be/rZhUiuqQcrY
